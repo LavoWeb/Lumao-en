@@ -1,470 +1,305 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Développement Magento</title>
-    <link>https://lumao.eu/</link>
-    <description>Recent content on Développement Magento</description>
+    <title>Magento development</title>
+    <link>https://en.lumao.eu/</link>
+    <description>Recent content on Magento development</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Thu, 08 Mar 2018 21:11:14 +0100</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 16:11:14 +0100</lastBuildDate>
     
-	<atom:link href="https://lumao.eu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.lumao.eu/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Charte sur le respect de la vie privée</title>
-      <link>https://lumao.eu/post/charte-vp/</link>
-      <pubDate>Thu, 08 Mar 2018 21:11:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/charte-vp/</guid>
-      <description>Date de dernière mise à jour : 09/03/2018
-La présente charte sur le respect de la vie privée (la « Charte ») a pour objectif de formaliser notre engagement quant au respect de la vie privée des utilisateurs du site internet lumao.eu exploité par Lumao SASU.
-La Charte est régie par les Conditions Générales d&amp;rsquo;Utilisation du Site. Tous les termes en majuscules non-définis dans la présente Charte sont définis dans les Conditions Générales d&amp;rsquo;Utilisation.</description>
-    </item>
-    
-    <item>
-      <title>Conditions Générales de Services</title>
-      <link>https://lumao.eu/post/cgs/</link>
-      <pubDate>Thu, 08 Mar 2018 21:11:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/cgs/</guid>
-      <description>Date de dernière mise à jour : 08/03/2018
-Article 1 – MENTION LÉGALES Le présent site, accessible à l&amp;rsquo;URL https://lumao.eu/ (le « Site »), est édité par :
-Lumao, SASU au capital de 100 euros, inscrite au R.C.S. d&amp;rsquo;Annecy sous le numéro **835305657, dont le siège social est situé au 22 boulevard du Semnoz, 74600 Annecy,** représenté(e) par Lavorel Auréliendûment habilité(e),
-(Ci-après désigné le « Vendeur »).
-Le numéro individuel TVA de l&amp;rsquo;Exploitant est : FR 68 835305657.</description>
-    </item>
-    
-    <item>
-      <title>Connexion SFTP avec Docker</title>
-      <link>https://lumao.eu/post/sftp-docker/</link>
-      <pubDate>Thu, 22 Feb 2018 11:11:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/sftp-docker/</guid>
-      <description>Comment accéder au contenu sur vos containeurs Docker ?
-Comme sur les autres, via sftp.
-Pourquoi faire ça Dans la logique DevOps, on ne va pas utiliser la connexion sftp pour modifier le code directement en prod, non on a le déploiement automatique et ça sera écrasé.
-Par contre, les webmasteurs ont surement besoin de modifier ou d&amp;rsquo;ajouter régulièrement des médias au site. Il ne faut pas les versionner, c&amp;rsquo;est pour cet usecase qu&amp;rsquo;on va faire un containeur sftp.</description>
-    </item>
-    
-    <item>
-      <title>Elastic Beanstalk déployer containeur Docker</title>
-      <link>https://lumao.eu/post/aws-docker-deploy/</link>
-      <pubDate>Thu, 22 Feb 2018 11:11:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/aws-docker-deploy/</guid>
-      <description>On a vu comment déployer automatiquement du code quand on push sur une branche. Maintenant, il est temps de customiser le déploiement pour mettre nos containeurs.
-Configuration Beanstalk (EB) Pas grand chose à faire, si vous avez ceci dans votre tableau de bord, c&amp;rsquo;est bon : Dockerfile Au déploiement, EB va lire les fichiers Dockerfile et Dockerrun.aws.json, on va rester sur le premier vu qu&amp;rsquo;on connait déjà.
-Dans le principe, EB va éxecuter le containeur et le publier une fois qu&amp;rsquo;il aura fini.</description>
-    </item>
-    
-    <item>
-      <title>Envoyer des mails via Amazon SES sur Magento 2</title>
-      <link>https://lumao.eu/post/magento-ses/</link>
-      <pubDate>Thu, 22 Feb 2018 11:11:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/magento-ses/</guid>
-      <description>Comment envoyer des e-mails via Amazon Simple Email Service pour un site sous Magento 2 ?
-Il y a 3 étapes :
- Configurer le compte Amazon
- Changer les DNS
- Valider les e-mails
- Installer/Configurer une extension Magento
-  Amazon Pour une fois, on ne peut pas utiliser le service depuis beaucoup de zones, en europe ce sera l&amp;rsquo;Irlande (eu-west-1 pour les intimes).
-Ajouter un domaine Il faut d&amp;rsquo;abord authoriser le domaine à envoyer les mails, ça se passe depuis la console.</description>
-    </item>
-    
-    <item>
-      <title>Gitlab CI &#43; AWS</title>
-      <link>https://lumao.eu/post/gitlab-aws/</link>
-      <pubDate>Thu, 22 Feb 2018 11:11:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/gitlab-aws/</guid>
-      <description>Aujourd&amp;rsquo;hui, on va voir comment faire un déploiement automatique (Continuous Deployment, CD pour la suite) au push sur une branche de Gitlab.
-Alternatives à Gitlab Tout d&amp;rsquo;abord quelques alternatives à Gitlab CI, il y en a beaucoup d&amp;rsquo;autres.
- Travis CI CircleCI Jenkins Bamboo &amp;hellip;  Alternatives à AWS Vous pouvez brancher n&amp;rsquo;importe quoi comme système de déploiement, du moment que vous arrivez à lancer le déploiement depuis un containeur Docker.</description>
-    </item>
-    
-    <item>
-      <title>IBAN</title>
-      <link>https://lumao.eu/iban/</link>
-      <pubDate>Wed, 14 Feb 2018 16:19:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/iban/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Contact Lumao</title>
-      <link>https://lumao.eu/post/contact/</link>
+      <link>https://en.lumao.eu/post/contact/</link>
       <pubDate>Sun, 09 Apr 2017 16:11:14 +0100</pubDate>
       
-      <guid>https://lumao.eu/post/contact/</guid>
-      <description>N&amp;rsquo;hésitez pas à parler de votre projet via ce formulaire.</description>
+      <guid>https://en.lumao.eu/post/contact/</guid>
+      <description>Please contact us with that form.</description>
     </item>
     
     <item>
-      <title>Développement Laravel</title>
-      <link>https://lumao.eu/post/developpement-laravel/</link>
+      <title>Laravel development</title>
+      <link>https://en.lumao.eu/post/developpement-laravel/</link>
       <pubDate>Sun, 09 Apr 2017 16:11:14 +0100</pubDate>
       
-      <guid>https://lumao.eu/post/developpement-laravel/</guid>
-      <description>Laravel est un framework PHP très tendance dans le monde du développement. Il a été créé par Taylor Otwell en juin 2011.
-Il a tout de suite été adopté par de nombreux développeurs (nous les premiers) car il est très simple à prendre en main, il est fournit comme un service, contrairement aux autres, ce n&amp;rsquo;est pas une contrainte de l&amp;rsquo;utiliser.
-Création d&amp;rsquo;APIs   Laravel permets de créer une API en quelques clics, c&amp;rsquo;est adapté pour faire un prototype pour des startups.</description>
+      <guid>https://en.lumao.eu/post/developpement-laravel/</guid>
+      <description>Laravel is a PHP framework very trend in the world of development. It was created by Taylor Otwell in June 2011.
+It was immediately adopted by many developers (we are the first) because it is very simple to take in hand, it is provided as a service, unlike the others, it is not a constraint to use it.
+API development   Laravel allows to create an API in a few clicks, it is suitable to make a prototype for startups.</description>
     </item>
     
     <item>
-      <title>Développement Akeneo</title>
-      <link>https://lumao.eu/post/developpement-akeneo/</link>
+      <title>Akeneo development</title>
+      <link>https://en.lumao.eu/post/developpement-akeneo/</link>
       <pubDate>Fri, 07 Apr 2017 13:41:14 +0100</pubDate>
       
-      <guid>https://lumao.eu/post/developpement-akeneo/</guid>
-      <description>Akeneo est un Product Information Management. Avec cet outil, vous pouvez gérer des collections de produits très facilement. Pour tous les formats, que ce soit web, print, les données ERP&amp;hellip;
-Le principe est que le PIM contient toutes les informations des produits et est le maitre de l&amp;rsquo;information. Il est souvent couplé avec un Data Asset Management qui stocke les médias (photos, vidéos, musiques&amp;hellip;).
-Akeneo est développé en Symfony 2 et repose sur Oro Platform, un framework robuste et développé activement.</description>
-    </item>
-    
-    <item>
-      <title>Présentation Seocampus 2017</title>
-      <link>https://lumao.eu/post/0005-seocampus-2017/</link>
-      <pubDate>Fri, 10 Mar 2017 12:17:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/0005-seocampus-2017/</guid>
-      <description>Merci d&amp;rsquo;être venu si nombreux à ma conférence au SEO Campus Paris 2017. J&amp;rsquo;étais &amp;ldquo;un peu&amp;rdquo; stressé, j&amp;rsquo;espère que ça vous a plu quand même.
-Voici les liens des modules que j&amp;rsquo;ai évoqués :
- CreareSEO DnD Patch Index Url  Et mes slides :
-  SEO et ecommerce sur Magento: retour d’expérience  de Aurélien Lavorel 
-Bonne journée !</description>
-    </item>
-    
-    <item>
-      <title>PHPUnit QuickStart</title>
-      <link>https://lumao.eu/post/phpunit/</link>
-      <pubDate>Fri, 24 Feb 2017 14:03:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/phpunit/</guid>
-      <description> PHPUnit Installation composer require phpunit/phpunit  Lancement Tout php vendor/phpunit/phpunit/phpunit  Un groupe php vendor/phpunit/phpunit/phpunit --group critical  Un fichier php vendor/phpunit/phpunit/phpunit app/code/community/Namespace/Module/Test/Model/Cms/CustomerTest.php  Une méthode php vendor/phpunit/phpunit/phpunit --filter getGroupIdFromRole app/code/community/Namespace/Module/Test/Model/Cms/CustomerTest.php  </description>
-    </item>
-    
-    <item>
-      <title>Reverse proxy automatique pour Docker</title>
-      <link>https://lumao.eu/post/docker-compose-auto-reverse-proxy/</link>
-      <pubDate>Mon, 06 Feb 2017 11:07:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/docker-compose-auto-reverse-proxy/</guid>
-      <description>Dans cet article, on va voir comment faire un reverse proxy qui détecte l&amp;rsquo;ajout d&amp;rsquo;un site, génère un certificat SSL SAN pour les noms associés sans aucune action de notre part :)
-Docker-compose Pour avoir un exemple plus parlant, on partira sur un site WordPress, créé avec docker-compose.
-Træfɪk L&amp;rsquo;outil magique qui nous servira de reverse proxy.
-Structure . |-- acme | `-- acme.json |-- compose | `-- soins-naturels.net | |-- data | | |-- mysql | | `-- wp-content | `-- docker-compose.</description>
-    </item>
-    
-    <item>
-      <title>Un registry Docker privé avec GitLab</title>
-      <link>https://lumao.eu/post/gitlab-private-registry-docker/</link>
-      <pubDate>Fri, 30 Dec 2016 11:07:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/gitlab-private-registry-docker/</guid>
-      <description>Aller sur Gitlab.com
-Créer un repo privé
-Editer le projet :
-Vérifier que l&amp;rsquo;option &amp;ldquo;Container Registry&amp;rdquo; est activé puis sauvegarder le projet.
-Voici la configuration que je recommande :
-On a donc un repo privé, où on peut mettre notre Dockerfile ainsi que notre configuration spécifique, un README qui explique comment récupèrer un tag spécifique ainsi que notre registry Docker
-Vous devriez avoir un nouvel onglet dans le projet :</description>
-    </item>
-    
-    <item>
-      <title>Hugo, GitHub Pages et Travis CI</title>
-      <link>https://lumao.eu/post/hugo-github-page/</link>
-      <pubDate>Sat, 24 Dec 2016 18:49:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/hugo-github-page/</guid>
-      <description>Introduction
-Hugo Hugo est un générateur de site statique, il est rapide, compatible toute plateforme et est très simple à prendre en main. Il est fourni avec un serveur intégré et l&amp;rsquo;extension live-reload, vous pouvez donc écrire un article en MarkDown et voir directement le résultat sans rafraîchir la page.
-Faire des sites statiques permets de réduire les coûts d&amp;rsquo;hébergements et d&amp;rsquo;enlever le risque de failles applicatives.
-GitHub Pages GitHub permets d&amp;rsquo;héberger gratuitement (en cas pas projet open-source) des documentations ou encore un site web.</description>
-    </item>
-    
-    <item>
-      <title>Mentions Légales</title>
-      <link>https://lumao.eu/post/mentions-legales/</link>
-      <pubDate>Sat, 24 Dec 2016 14:49:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/mentions-legales/</guid>
-      <description>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l’économie numérique, il est précisé aux utilisateurs du site lumao.eu l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
-Edition du site Le site lumao.eu est édité par la société LUMAO SASU, au capital social de 100 euros, immatriculée au Registre du Commerce et des Sociétés d’Annecy sous le n° 83530565700016 et dont le siège social est situé au 22 boulevard du Semnoz 74600 Annecy (TVA intracommunautaire n° FR 68 835305657).</description>
-    </item>
-    
-    <item>
-      <title>Merci de nous avoir contacté</title>
-      <link>https://lumao.eu/post/merci/</link>
-      <pubDate>Sat, 24 Dec 2016 14:49:14 +0100</pubDate>
-      
-      <guid>https://lumao.eu/post/merci/</guid>
-      <description>Nous avons bien reçu votre e-mail, nous vous contacterons prochainement.
-À bientôt,
-L&amp;rsquo;équipe Lumao</description>
+      <guid>https://en.lumao.eu/post/developpement-akeneo/</guid>
+      <description>Akeneo is a Product Information Management. With this tool, you can manage product collections very easily. For all formats, be it web, print, ERP data &amp;hellip;
+The principle is that the PIM contains all the information of the products and is the master of the information. It is often coupled with a Data Asset Management which stores the media (photos, videos, music &amp;hellip;).
+Akeneo is developed in Symfony 2 and is based on Oro Platform, a robust and actively developed framework.</description>
     </item>
     
     <item>
       <title>ATEC Sports</title>
-      <link>https://lumao.eu/reference/10-atec/</link>
+      <link>https://en.lumao.eu/reference/10-atec/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/10-atec/</guid>
+      <guid>https://en.lumao.eu/reference/10-atec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acrodeal</title>
-      <link>https://lumao.eu/reference/18-acrodeal/</link>
+      <link>https://en.lumao.eu/reference/18-acrodeal/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/18-acrodeal/</guid>
+      <guid>https://en.lumao.eu/reference/18-acrodeal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Atomic</title>
-      <link>https://lumao.eu/reference/01-atomic/</link>
+      <link>https://en.lumao.eu/reference/01-atomic/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/01-atomic/</guid>
+      <guid>https://en.lumao.eu/reference/01-atomic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capel Store</title>
-      <link>https://lumao.eu/freference/02-capelstore/</link>
+      <link>https://en.lumao.eu/freference/02-capelstore/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/freference/02-capelstore/</guid>
+      <guid>https://en.lumao.eu/freference/02-capelstore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capel Store</title>
-      <link>https://lumao.eu/reference/02-capelstore/</link>
+      <link>https://en.lumao.eu/reference/02-capelstore/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/02-capelstore/</guid>
+      <guid>https://en.lumao.eu/reference/02-capelstore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cosma Parfumeries</title>
-      <link>https://lumao.eu/freference/10-cosma/</link>
+      <link>https://en.lumao.eu/freference/10-cosma/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/freference/10-cosma/</guid>
+      <guid>https://en.lumao.eu/freference/10-cosma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cosma Parfumeries</title>
-      <link>https://lumao.eu/reference/10-cosma/</link>
+      <link>https://en.lumao.eu/reference/10-cosma/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/10-cosma/</guid>
+      <guid>https://en.lumao.eu/reference/10-cosma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crystal Guitare</title>
-      <link>https://lumao.eu/freference/03-crystal/</link>
+      <link>https://en.lumao.eu/freference/03-crystal/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/freference/03-crystal/</guid>
+      <guid>https://en.lumao.eu/freference/03-crystal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demarini</title>
-      <link>https://lumao.eu/reference/11-demarini/</link>
+      <link>https://en.lumao.eu/reference/11-demarini/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/11-demarini/</guid>
+      <guid>https://en.lumao.eu/reference/11-demarini/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Décoration Stickers</title>
-      <link>https://lumao.eu/reference/13-ds/</link>
+      <link>https://en.lumao.eu/reference/13-ds/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/13-ds/</guid>
+      <guid>https://en.lumao.eu/reference/13-ds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecdist</title>
-      <link>https://lumao.eu/reference/19-ecdist/</link>
+      <link>https://en.lumao.eu/reference/19-ecdist/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/19-ecdist/</guid>
+      <guid>https://en.lumao.eu/reference/19-ecdist/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guitare</title>
-      <link>https://lumao.eu/reference/17-guitare/</link>
+      <link>https://en.lumao.eu/reference/17-guitare/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/17-guitare/</guid>
+      <guid>https://en.lumao.eu/reference/17-guitare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hermès</title>
-      <link>https://lumao.eu/reference/08-hermes/</link>
+      <link>https://en.lumao.eu/reference/08-hermes/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/08-hermes/</guid>
+      <guid>https://en.lumao.eu/reference/08-hermes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JardinChic</title>
-      <link>https://lumao.eu/reference/04-jardinchic/</link>
+      <link>https://en.lumao.eu/reference/04-jardinchic/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/04-jardinchic/</guid>
+      <guid>https://en.lumao.eu/reference/04-jardinchic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Louisville Slugger</title>
-      <link>https://lumao.eu/reference/12-louisville/</link>
+      <link>https://en.lumao.eu/reference/12-louisville/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/12-louisville/</guid>
+      <guid>https://en.lumao.eu/reference/12-louisville/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mavic</title>
-      <link>https://lumao.eu/reference/06-mavic/</link>
+      <link>https://en.lumao.eu/reference/06-mavic/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/06-mavic/</guid>
+      <guid>https://en.lumao.eu/reference/06-mavic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noix d&#39;Arec</title>
-      <link>https://lumao.eu/freference/01-noixdarec/</link>
+      <link>https://en.lumao.eu/freference/01-noixdarec/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/freference/01-noixdarec/</guid>
+      <guid>https://en.lumao.eu/freference/01-noixdarec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noix d&#39;Arec</title>
-      <link>https://lumao.eu/reference/21-noixdarec/</link>
+      <link>https://en.lumao.eu/reference/21-noixdarec/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/21-noixdarec/</guid>
+      <guid>https://en.lumao.eu/reference/21-noixdarec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Place des Gones</title>
-      <link>https://lumao.eu/reference/15-pdg/</link>
+      <link>https://en.lumao.eu/reference/15-pdg/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/15-pdg/</guid>
+      <guid>https://en.lumao.eu/reference/15-pdg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prairymood</title>
-      <link>https://lumao.eu/reference/20-prairymood/</link>
+      <link>https://en.lumao.eu/reference/20-prairymood/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/20-prairymood/</guid>
+      <guid>https://en.lumao.eu/reference/20-prairymood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R-Cade</title>
-      <link>https://lumao.eu/reference/03-rcade/</link>
+      <link>https://en.lumao.eu/reference/03-rcade/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/03-rcade/</guid>
+      <guid>https://en.lumao.eu/reference/03-rcade/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Salomon</title>
-      <link>https://lumao.eu/reference/02-salomon/</link>
+      <link>https://en.lumao.eu/reference/02-salomon/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/02-salomon/</guid>
+      <guid>https://en.lumao.eu/reference/02-salomon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Suunto</title>
-      <link>https://lumao.eu/reference/14-suunto/</link>
+      <link>https://en.lumao.eu/reference/14-suunto/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/14-suunto/</guid>
+      <guid>https://en.lumao.eu/reference/14-suunto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teo Jasmin</title>
-      <link>https://lumao.eu/freference/04-teojasmin/</link>
+      <link>https://en.lumao.eu/freference/04-teojasmin/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/freference/04-teojasmin/</guid>
+      <guid>https://en.lumao.eu/freference/04-teojasmin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teo Jasmin</title>
-      <link>https://lumao.eu/reference/04-teojasmin/</link>
+      <link>https://en.lumao.eu/reference/04-teojasmin/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/04-teojasmin/</guid>
+      <guid>https://en.lumao.eu/reference/04-teojasmin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vente à la Cave</title>
-      <link>https://lumao.eu/reference/09-valc/</link>
+      <link>https://en.lumao.eu/reference/09-valc/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/09-valc/</guid>
+      <guid>https://en.lumao.eu/reference/09-valc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Violon</title>
-      <link>https://lumao.eu/reference/16-violon/</link>
+      <link>https://en.lumao.eu/reference/16-violon/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/16-violon/</guid>
+      <guid>https://en.lumao.eu/reference/16-violon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wilson</title>
-      <link>https://lumao.eu/reference/05-wilson/</link>
+      <link>https://en.lumao.eu/reference/05-wilson/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/05-wilson/</guid>
+      <guid>https://en.lumao.eu/reference/05-wilson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arcteryx</title>
-      <link>https://lumao.eu/reference/07-arcteryx/</link>
+      <link>https://en.lumao.eu/reference/07-arcteryx/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/reference/07-arcteryx/</guid>
+      <guid>https://en.lumao.eu/reference/07-arcteryx/</guid>
       <description></description>
     </item>
     

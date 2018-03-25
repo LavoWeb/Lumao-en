@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Développement Magento</title>
-    <link>https://lumao.eu/tags/</link>
-    <description>Recent content in Tags on Développement Magento</description>
+    <title>Tags on Magento development</title>
+    <link>https://en.lumao.eu/tags/</link>
+    <description>Recent content in Tags on Magento development</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>en-us</language>
     <lastBuildDate>Sat, 24 Dec 2016 12:50:52 +0100</lastBuildDate>
     
-	<atom:link href="https://lumao.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.lumao.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dev</title>
-      <link>https://lumao.eu/tags/dev/</link>
+      <link>https://en.lumao.eu/tags/dev/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/tags/dev/</guid>
+      <guid>https://en.lumao.eu/tags/dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perf</title>
-      <link>https://lumao.eu/tags/perf/</link>
+      <link>https://en.lumao.eu/tags/perf/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/tags/perf/</guid>
+      <guid>https://en.lumao.eu/tags/perf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seo</title>
-      <link>https://lumao.eu/tags/seo/</link>
+      <link>https://en.lumao.eu/tags/seo/</link>
       <pubDate>Sat, 24 Dec 2016 12:50:52 +0100</pubDate>
       
-      <guid>https://lumao.eu/tags/seo/</guid>
+      <guid>https://en.lumao.eu/tags/seo/</guid>
       <description></description>
     </item>
     
